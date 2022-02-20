@@ -1,0 +1,21 @@
+{
+    "name": "axela/bienesraices",
+    "description": "Creando un proyecto POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Blairi",
+            "email": "axel.avi.fer@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
