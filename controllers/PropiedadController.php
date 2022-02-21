@@ -14,12 +14,15 @@ class PropiedadController {
 
         $propiedades = Propiedad::all();
 
+        $vendedores = Vendedor::all();
+
         // Muestra mensaje condicional
         $resultado = $_GET["resultado"] ?? null;
 
         $router->render("propiedades/admin",[
             "propiedades" => $propiedades,
-            "resultado" => $resultado
+            "resultado" => $resultado,
+            "vendedores" => $vendedores
         ]);
     }
     public static function crear(Router $router){
