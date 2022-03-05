@@ -29,7 +29,7 @@ if(!isset($inicio)){
                 </a>
 
                 <div class="mobile-menu">
-                    <img src="/src/img/barras.svg" alt="icono menu responsive">
+                    <img src="/build/img/barras.svg" alt="icono menu responsive">
                 </div>
 
                 <div class="derecha">
@@ -37,12 +37,12 @@ if(!isset($inicio)){
                     <img src="/build/img/dark-mode.svg" alt="icono dark-mode" class="dark-mode-boton">
 
                     <nav class="navegacion">
-                        <a href="nosotros.php">Nosotros</a>
-                        <a href="anuncios.php">Anuncios</a>
-                        <a href="blog.php">Blog</a>
-                        <a href="contacto.php">Contacto</a>
+                        <a href="/nosotros">Nosotros</a>
+                        <a href="/propiedades">Anuncios</a>
+                        <a href="/blog">Blog</a>
+                        <a href="/contacto">Contacto</a>
                         <?php if($auth): ?>
-                            <a href="cerrar-sesion.php">Cerrar Sesión</a>
+                            <a href="/logout">Cerrar Sesión</a>
                         <?php endif; ?>
                     </nav>
                 </div>
