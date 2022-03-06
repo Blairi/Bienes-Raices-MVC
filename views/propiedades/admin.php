@@ -1,7 +1,7 @@
 <?php
 ?>
 <main class="contenedor seccion">
-    <h2>Adminstradror de Bienes Raices</h2>
+    <h2 data-cy="heading-admin">Administrador de Bienes Raices</h2>
     
     <?php
     if($resultado){
